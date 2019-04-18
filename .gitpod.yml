@@ -1,0 +1,8 @@
+ports:
+- port: 9000
+tasks:
+- before: nvm install 10
+  init: yarn install
+  command: yarn dev
+- openMode: split-right
+  command: printf "\nWelcome to this virtual environment.\nYou can type your commands in this terminal.\n"

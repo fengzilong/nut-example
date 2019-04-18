@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nut",
+    "dev": "nut",
     "build": "nut --prod"
   },
   "repository": {
