@@ -1,7 +1,7 @@
+image: node:8
 ports:
 - port: 9000
 tasks:
-- before: nvm install 10
   init: yarn install
   command: yarn dev
 - openMode: split-right
