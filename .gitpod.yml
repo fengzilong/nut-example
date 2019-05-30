@@ -2,7 +2,7 @@ image: node:8
 ports:
 - port: 9000
 tasks:
-  init: yarn install
+- init: yarn
   command: yarn dev
 - openMode: split-right
   command: printf "\nWelcome to this virtual environment.\nYou can type your commands in this terminal.\n"
