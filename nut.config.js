@@ -1,8 +1,8 @@
 module.exports = {
   zh: 'NUT 项目',
   layout: 'now',
-  // disable cors as gitpod does not support it
+  // https://github.com/gitpod-io/gitpod/issues/26
   devServer: {
-    headers: {},
+    disableHostCheck: true
   }
 }
