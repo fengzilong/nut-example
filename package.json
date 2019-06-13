@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/fengzilong/nut-example#readme",
   "devDependencies": {
-    "@nut-project/cli": "^0.0.12"
+    "@nut-project/cli": "^0.2.5-16"
   }
 }
